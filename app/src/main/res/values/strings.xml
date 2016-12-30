@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Onga</string>
+    <string name="action_settings">Settings</string>
+    <string name="end">End</string>
+    <string name="shuffle">Shuffle</string>
+
+</resources>
