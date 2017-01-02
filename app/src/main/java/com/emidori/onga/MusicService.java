@@ -123,10 +123,13 @@ public class MusicService extends Service implements MediaPlayer.OnPreparedListe
                 .setOngoing(true)
                 .setContentTitle("Playing")
                 .setContentText(songTitle);
-        Notification not = builder.build();
 
-        startForeground(NOTIFY_ID, not);
 
+        if (android.os.Build.VERSION.SDK_INT < 16) {
+            Notification not = builder.getNotification();
+        } else {
+            Notification not = builder.build();
+        }
 
     }
 
