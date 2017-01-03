@@ -2,7 +2,8 @@
 Music Player App for Android 
 
 
-ONGA is a personal project that will be worked on a regular basis 
+ONGA is a personal project that will be worked on a regular basis
+
 I have started with the following tutorial: 
 https://code.tutsplus.com/tutorials/create-a-music-player-on-android-project-setup--mobile-22764
 
