@@ -6,8 +6,7 @@
     android:layout_height="wrap_content"
     android:onClick="songPicked"
     android:orientation="vertical"
-    android:padding="5dp"
-    tools:ignore="MissingTranslation"> <!--Supress "Not using tools" warning-->
+    android:padding="5dp">
 
     <TextView
         android:id="@+id/song_title"
